@@ -6,7 +6,7 @@ public class MatrixMultiplicationDouble {
         long startTime = System.currentTimeMillis();
 
         double[][] matrix1 = generateMatrix(1900, 30);
-        double[][] matrix2 = generateMatrix(30, 1100);
+        double[][] matrix2 = generateMatrix(30, 1200);
         int cols1 = matrix1[0].length;
         int rows2 = matrix2.length;
 
@@ -21,7 +21,7 @@ public class MatrixMultiplicationDouble {
         }
 
         long endTime = System.currentTimeMillis();
-        System.out.println("Elapsed Time in milli seconds: " + (endTime - startTime) + "\n");
+        System.out.println("Elapsed Time in milliseconds: " + (endTime - startTime) + "\n");
 
     }
 
